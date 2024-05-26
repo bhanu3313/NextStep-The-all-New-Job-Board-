@@ -1,0 +1,289 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333; /* Main text color */
+}
+
+/* Header styles */
+header {
+    background-color: #387452; /* Header background color */
+    color: #fff; /* Header text color */
+    padding: 20px;
+    text-align: center; /* Center align header content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px; /* Increase header font size */
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content styles */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 28px; /* Increase section heading font size */
+    color: #070707; /* Section heading color */
+    text-align: center; /* Center align section headings */
+    border-bottom: 2px solid #387452;
+    padding-bottom: 10px;
+}
+
+/* Job Postings styles */
+.job-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.job-posting {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-posting h4 {
+    margin-bottom: 10px;
+    font-size: 22px; /* Increase job posting heading font size */
+    color: #387452;
+    font-weight: bold;
+}
+
+.job-posting p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.apply-link {
+    color: #387452;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.apply-link:hover {
+    text-decoration: underline;
+}
+
+/* Form styles */
+form {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.form-group input[type="file"] {
+    padding: 5px;
+}
+
+button {
+    background-color: #387452;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2f6042;
+}
+
+/* Article styles */
+.article {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.article h3 {
+    margin-bottom: 10px;
+    font-size: 22px; /* Increase article heading font size */
+    color: #387452; /* Article heading color */
+    font-weight: bold;
+}
+
+.article a {
+    color: #387452;
+    text-decoration: none;
+}
+
+.article a:hover {
+    text-decoration: underline;
+}
+
+.article p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Cover Letter styles */
+.cover-letter {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cover-letter h3 {
+    margin-bottom: 10px;
+    font-size: 22px; /* Increase cover letter heading font size */
+    color: #387452; /* Cover letter heading color */
+    font-weight: bold;
+}
+
+/* Interview Preparation styles */
+#interview-preparation ol,
+#interview-preparation ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#interview-preparation ol li,
+#interview-preparation ul li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+#interview-preparation ol li::before,
+#interview-preparation ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #387452;
+    font-size: 20px;
+}
+
+#interview-preparation h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 22px; /* Increase interview preparation heading font size */
+    color: #387452; /* Interview preparation heading color */
+    font-weight: bold;
+}
+
+/* Sign-in page styles */
+body.sign-in-page {
+    background-color: #387452; /* Green background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sign-in-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.sign-in-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #387452;
+}
+
+.sign-in-container .form-group {
+    margin-bottom: 15px;
+}
+
+.sign-in-container .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.sign-in-container .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.sign-in-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #387452;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sign-in-container button:hover {
+    background-color: #2f6042;
+}
+
+#error-message {
+    color: red;
+    display: none;
+    margin-top: 10px;
+}
